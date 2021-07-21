@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LR Disemelo/Documents/JPMasterclass/AutomationDemo">
+        <classes>
+            <class name="demonstration.HomePage">
+                <methods>
+                    <include name="homePageNavigation"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsBackLightPage">
+                <methods>
+                    <include name="assertBackLightLabel"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsBackPackPage">
+                <methods>
+                    <include name="assertBackPackLabel"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsBoltTshirtPage">
+                <methods>
+                    <include name="assertBoltTshirtLabel"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsFleeceJacketPage">
+                <methods>
+                    <include name="assertFleeceJacketLabel"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsOnsiePage">
+                <methods>
+                    <include name="assertOnsieLabel"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsPages">
+                <methods>
+                    <include name="selectBackPack"/>
+                    <include name="selectBikeLight"/>
+                    <include name="selectBoltTshirt"/>
+                    <include name="selectFleeceJacket"/>
+                    <include name="selectOnsie"/>
+                    <include name="selectTestAllTheThings"/>
+                </methods>
+            </class>
+            <class name="demonstration.ProductsTestAllPage">
+                <methods>
+                    <include name="assertTestAllLabel"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
