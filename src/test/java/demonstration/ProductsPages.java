@@ -1,5 +1,7 @@
 package demonstration;
 
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,8 +12,10 @@ import java.io.IOException;
 
 public class ProductsPages extends base {
 
+    public WebDriver driver;
 
-/*    @BeforeTest
+
+    /*    @BeforeTest
     public void initialise() throws IOException {
 
         driver = initializeDriver();
@@ -26,7 +30,22 @@ public class ProductsPages extends base {
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
-        login.getPassWord().sendKeys(Password);
+
+        if (Username == "locked_out_user") {
+            login.getPassWord().sendKeys(Password);
+            login.loginButton().click();
+            LoginPage loginError = new LoginPage(driver);
+            loginError.lockOutUser().isDisplayed();
+            String errorUser = login.lockOutUser().getText();
+            System.out.println(errorUser);
+
+            Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+            driver.close();
+
+        }
+
+        else
+
         login.loginButton().click();
         ProductsPage selectProduct = new ProductsPage(driver);
         selectProduct.clickBackPack().click();
@@ -52,8 +71,8 @@ public class ProductsPages extends base {
         driver = initializeDriver();
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
-        login.getUserName().sendKeys("standard_user");
-        login.getPassWord().sendKeys("secret_sauce");
+        login.getUserName().sendKeys(Username);
+        login.getPassWord().sendKeys(Password);
         login.loginButton().click();
         ProductsPage selectProduct = new ProductsPage(driver);
         selectProduct.clickBoltTshirt().click();
@@ -66,8 +85,8 @@ public class ProductsPages extends base {
         driver = initializeDriver();
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
-        login.getUserName().sendKeys("standard_user");
-        login.getPassWord().sendKeys("secret_sauce");
+        login.getUserName().sendKeys(Username);
+        login.getPassWord().sendKeys(Password);
         login.loginButton().click();
         ProductsPage selectProduct = new ProductsPage(driver);
         selectProduct.clickFleeceJacket().click();
@@ -80,8 +99,8 @@ public class ProductsPages extends base {
         driver = initializeDriver();
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
-        login.getUserName().sendKeys("standard_user");
-        login.getPassWord().sendKeys("secret_sauce");
+        login.getUserName().sendKeys(Username);
+        login.getPassWord().sendKeys(Password);
         login.loginButton().click();
         ProductsPage selectProduct = new ProductsPage(driver);
         selectProduct.clickOnsie().click();
@@ -95,8 +114,8 @@ public class ProductsPages extends base {
      //  driver.get(prop.getProperty("URL"));;
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
-        login.getUserName().sendKeys("standard_user");
-        login.getPassWord().sendKeys("secret_sauce");
+        login.getUserName().sendKeys(Username);
+        login.getPassWord().sendKeys(Password);
         login.loginButton().click();
         ProductsPage selectProduct = new ProductsPage(driver);
         selectProduct.clickTestAll().click();

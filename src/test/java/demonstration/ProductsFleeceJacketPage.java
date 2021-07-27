@@ -1,5 +1,6 @@
 package demonstration;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
@@ -11,6 +12,8 @@ import pageObjects.ProductsPage;
 import java.io.IOException;
 
 public class ProductsFleeceJacketPage extends base {
+
+    public WebDriver driver;
 
 /*    @BeforeTest
     public void initialise() throws IOException {
@@ -26,12 +29,55 @@ public class ProductsFleeceJacketPage extends base {
 
         driver = initializeDriver();
         driver.get("https://www.saucedemo.com/");
-        // driver.get(prop.getProperty("url"));
-
         LoginPage login = new LoginPage(driver);
+        login.getUserName().sendKeys(Username);
 
+        switch (Username){
 
-        if (Username == "locked_out_user") {
+            case "locked_out_user":
+                //login.getUserName().sendKeys(Username);
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                //wait();
+
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickFleeceJacket().click();
+                ProductFleeceJacketPage fleeceJacketLabel = new ProductFleeceJacketPage(driver);
+                String getPrice = fleeceJacketLabel.assertFleeceJacket().getText();
+                System.out.println(getPrice);
+                Assert.assertEquals(getPrice, "$49.99");
+                driver.close();
+
+                break;
+
+            case "problem_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct1 = new ProductsPage(driver);
+                selectProduct1.clickFleeceJacket().click();
+                ProductFleeceJacketPage fleeceJacketLabel1 = new ProductFleeceJacketPage(driver);
+                String getPrice1 = fleeceJacketLabel1.assertFleeceJacket().getText();
+                System.out.println(getPrice1);
+                Assert.assertEquals(getPrice1, "$√-1");
+                driver.close();
+                break;
+
+        }
+
+       /* if (Username == "locked_out_user") {
             login.getUserName().sendKeys(Username);
             login.getPassWord().sendKeys(Password);
             login.loginButton().click();
@@ -71,12 +117,12 @@ public class ProductsFleeceJacketPage extends base {
             driver.close();
 
         }
-
+*/
     }
 
     @AfterTest
     public void tearDown() {
-        driver.quit();;
+        driver.quit();
     }
 
     @DataProvider

@@ -9,8 +9,9 @@ public class LoginPage {
     By userName = By.id("user-name");
     By passWord = By.id("password");
     By loginButton = By.id("login-button");
-   // By epicSadFace = By.className("error-message-container error");
-   By epicSadFace = By.tagName("h3");
+  //  By epicSadFace = By.className("error-message-container error");
+  // By epicSadFace = By.tagName("h3");
+    By epicSadFace = By.cssSelector(".error-message-container h3");
 
 
     public LoginPage(WebDriver driver) {

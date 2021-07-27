@@ -1,0 +1,10 @@
+pageObjects\ProductOnsiePage.class
+pageObjects\ProductBackPackPage.class
+pageObjects\LoginPage.class
+pageObjects\ProductTestAllPage.class
+demonstration\base.class
+pageObjects\ProductBoltTshirtPage.class
+pageObjects\ProductFleeceJacketPage.class
+pageObjects\Listeners.class
+pageObjects\ProductBikeLightPage.class
+pageObjects\ProductsPage.class

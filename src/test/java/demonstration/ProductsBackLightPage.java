@@ -1,5 +1,6 @@
 package demonstration;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
@@ -11,6 +12,9 @@ import pageObjects.ProductsPage;
 import java.io.IOException;
 
 public class ProductsBackLightPage extends base {
+
+    public WebDriver driver;
+
 
 /*    @BeforeTest
     public void initialise() throws IOException {
@@ -27,15 +31,61 @@ public class ProductsBackLightPage extends base {
         driver = initializeDriver();
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
+        login.getUserName().sendKeys(Username);
 
+switch (Username){
 
-        if (Username == "locked_out_user") {
+    case "locked_out_user":
+        //login.getUserName().sendKeys(Username);
+        login.getPassWord().sendKeys(Password);
+        login.loginButton().click();
+        LoginPage loginError = new LoginPage(driver);
+        loginError.lockOutUser().isDisplayed();
+        String errorUser = loginError.lockOutUser().getText();
+        System.out.println(errorUser);
+        //wait();
+
+        Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+        driver.close();
+        break;
+
+        case "standard_user":
+    case "performance_glitch_user":
+
+        login.getPassWord().sendKeys(Password);
+            login.loginButton().click();
+            ProductsPage selectProduct = new ProductsPage(driver);
+            selectProduct.clickBikeLight().click();
+            ProductBikeLightPage bikeLightLabel = new ProductBikeLightPage(driver);
+            String getPrice = bikeLightLabel.assertBikeLight().getText();
+            System.out.println(getPrice);
+            Assert.assertEquals(getPrice, "$9.99");
+            driver.close();
+
+            break;
+
+    case "problem_user":
+        login.getPassWord().sendKeys(Password);
+        login.loginButton().click();
+        ProductsPage selectProduct1 = new ProductsPage(driver);
+        selectProduct1.clickBikeLight().click();
+        ProductBikeLightPage bikeLightLabel1 = new ProductBikeLightPage(driver);
+        String getPrice1 = bikeLightLabel1.assertBikeLight().getText();
+        System.out.println(getPrice1);
+        Assert.assertEquals(getPrice1, "$15.99");
+        driver.close();
+
+        break;
+
+}
+
+       /* if (Username == "locked_out_user") {
             login.getUserName().sendKeys(Username);
             login.getPassWord().sendKeys(Password);
             login.loginButton().click();
             LoginPage loginError = new LoginPage(driver);
             loginError.lockOutUser().isDisplayed();
-            String errorUser = login.lockOutUser().getText();
+            String errorUser = loginError.lockOutUser().getText();
             System.out.println(errorUser);
             //wait();
 
@@ -68,11 +118,12 @@ public class ProductsBackLightPage extends base {
             driver.close();
 
 
-        }
+        }*/
 
     }
     @AfterTest
     public void tearDown() {
+        driver.close();
         driver.quit();
     }
 

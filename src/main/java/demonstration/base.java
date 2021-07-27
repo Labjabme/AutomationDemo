@@ -1,10 +1,14 @@
 package demonstration;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -68,4 +72,42 @@ public class base {
         return url;
 
     }*/
-}
+
+    public String getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
+
+        TakesScreenshot screenGrab = (TakesScreenshot) this.driver;
+       File source = screenGrab.getScreenshotAs(OutputType.FILE);
+       String destinationFile = System.getProperty("user.dir")+"\\reports\\"+ testCaseName +".png";
+        FileUtils.copyFile(source,new File(destinationFile));
+
+        return destinationFile;
+    }
+
+
+  /*  public void getScreenshotPath(String testMethodName, WebDriver driver)
+
+
+    {
+
+        String screenName= System.currentTimeMillis()+ ".png";
+
+        File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+        try
+
+        {
+
+            FileHandler.copy(src, new File(System.getProperty("C:\\Users\\LR Disemelo\\Documents\\JPMasterclass\\AutomationDemo\\target")+"\\reports\\" +screenName+""));
+
+        }
+
+        catch(IOException e)
+
+        {
+
+            System.out.println(e.getMessage());
+
+        }*/
+
+    }
+

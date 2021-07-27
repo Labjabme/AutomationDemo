@@ -1,5 +1,6 @@
 package demonstration;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
@@ -12,7 +13,9 @@ import java.io.IOException;
 
 public class ProductsTestAllPage extends base {
 
-/*    @BeforeTest
+    public WebDriver driver;
+
+    /*    @BeforeTest
     public void initialise() throws IOException {
 
         driver = initializeDriver();
@@ -28,9 +31,54 @@ public class ProductsTestAllPage extends base {
         driver.get("https://www.saucedemo.com/");
 
         LoginPage login = new LoginPage(driver);
+        login.getUserName().sendKeys(Username);
 
 
-        if (Username == "locked_out_user") {
+        switch (Username){
+
+            case "locked_out_user":
+                //login.getUserName().sendKeys(Username);
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                //wait();
+
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickTestAll().click();
+                ProductTestAllPage testAllLabel = new ProductTestAllPage(driver);
+                String getPrice = testAllLabel.assertTestAll().getText();
+                System.out.println(getPrice);
+                Assert.assertEquals(getPrice, "$15.99");
+                driver.close();
+
+                break;
+
+            case "problem_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct1 = new ProductsPage(driver);
+                selectProduct1.clickTestAll().click();
+                ProductTestAllPage testAllLabel1 = new ProductTestAllPage(driver);
+                String getPrice1 = testAllLabel1.assertTestAll().getText();
+                System.out.println(getPrice1);
+                Assert.assertEquals(getPrice1, "$29.99");
+                driver.close();
+                break;
+
+        }
+   /*     if (Username == "locked_out_user") {
             login.getUserName().sendKeys(Username);
             login.getPassWord().sendKeys(Password);
             login.loginButton().click();
@@ -70,7 +118,7 @@ public class ProductsTestAllPage extends base {
             driver.close();
 
 
-        }
+        }*/
 
     }
 
