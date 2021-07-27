@@ -31,24 +31,28 @@ public class base {
         String browserName = prop.getProperty("browser");
 
 
-        if (browserName.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\chromedriver\\chromedriver.exe");
-            System.out.println(browserName);
-            driver = new ChromeDriver();
-            driver.manage().window().maximize();
+        switch (browserName) {
+            case "chrome":
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\chromedriver\\chromedriver.exe");
+                System.out.println(browserName);
+                driver = new ChromeDriver();
+                driver.manage().window().maximize();
 
-        } else if (browserName.equals("firefox")) {
+                break;
+            case "firefox":
 
-            System.setProperty("webdriver.firefox.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\geckodriver.exe");
-            System.out.println(browserName);
-            driver = new FirefoxDriver();
-            driver.manage().window().maximize();
+                System.setProperty("webdriver.firefox.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\geckodriver.exe");
+                System.out.println(browserName);
+                driver = new FirefoxDriver();
+                driver.manage().window().maximize();
 
-        } else if (browserName.equals("IE")) {
-            System.setProperty("webdriver.edge.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\EdgeDriver\\msedgedriver.exe");
-            System.out.println(browserName);
-            driver = new EdgeDriver();
-            driver.manage().window().maximize();
+                break;
+            case "IE":
+                System.setProperty("webdriver.edge.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\EdgeDriver\\msedgedriver.exe");
+                System.out.println(browserName);
+                driver = new EdgeDriver();
+                driver.manage().window().maximize();
+                break;
         }
 
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

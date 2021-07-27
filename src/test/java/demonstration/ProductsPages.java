@@ -31,26 +31,35 @@ public class ProductsPages extends base {
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
 
-        if (Username == "locked_out_user") {
-            login.getPassWord().sendKeys(Password);
-            login.loginButton().click();
-            LoginPage loginError = new LoginPage(driver);
-            loginError.lockOutUser().isDisplayed();
-            String errorUser = login.lockOutUser().getText();
-            System.out.println(errorUser);
+        switch (Username) {
 
-            Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
-            driver.close();
+            case "locked_out_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+
+            case "problem_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickBackPack().click();
+                driver.close();
+
+                break;
 
         }
-
-        else
-
-        login.loginButton().click();
-        ProductsPage selectProduct = new ProductsPage(driver);
-        selectProduct.clickBackPack().click();
-        driver.close();
     }
+
 
     @Test(dataProvider = "getData")
     public void selectBikeLight(String Username, String Password) throws IOException {
@@ -58,11 +67,33 @@ public class ProductsPages extends base {
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
-        login.getPassWord().sendKeys(Password);
-        login.loginButton().click();
-        ProductsPage selectProduct = new ProductsPage(driver);
-        selectProduct.clickBikeLight().click();
-        driver.close();
+
+        switch (Username) {
+
+            case "locked_out_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+            case "problem_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickBikeLight().click();
+                driver.close();
+                break;
+
+        }
+
     }
 
     @Test(dataProvider = "getData")
@@ -72,11 +103,33 @@ public class ProductsPages extends base {
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
-        login.getPassWord().sendKeys(Password);
-        login.loginButton().click();
-        ProductsPage selectProduct = new ProductsPage(driver);
-        selectProduct.clickBoltTshirt().click();
-        driver.close();
+
+        switch (Username) {
+
+            case "locked_out_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+            case "problem_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickBoltTshirt().click();
+                driver.close();
+                break;
+
+        }
+
     }
 
     @Test(dataProvider = "getData")
@@ -86,11 +139,33 @@ public class ProductsPages extends base {
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
-        login.getPassWord().sendKeys(Password);
-        login.loginButton().click();
-        ProductsPage selectProduct = new ProductsPage(driver);
-        selectProduct.clickFleeceJacket().click();
-        driver.close();
+
+        switch (Username) {
+
+            case "locked_out_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+            case "problem_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickFleeceJacket().click();
+                driver.close();
+                break;
+
+        }
+
     }
 
     @Test(dataProvider = "getData")
@@ -100,37 +175,81 @@ public class ProductsPages extends base {
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
-        login.getPassWord().sendKeys(Password);
-        login.loginButton().click();
-        ProductsPage selectProduct = new ProductsPage(driver);
-        selectProduct.clickOnsie().click();
-        driver.close();
+        switch (Username) {
+
+            case "locked_out_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+            case "problem_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickOnsie().click();
+                driver.close();
+                break;
+
+        }
+
+
     }
 
     @Test(dataProvider = "getData")
 
     public void selectTestAllTheThings(String Username, String Password) throws IOException {
         driver = initializeDriver();
-     //  driver.get(prop.getProperty("URL"));;
+        //  driver.get(prop.getProperty("URL"));;
         driver.get("https://www.saucedemo.com/");
         LoginPage login = new LoginPage(driver);
         login.getUserName().sendKeys(Username);
-        login.getPassWord().sendKeys(Password);
-        login.loginButton().click();
-        ProductsPage selectProduct = new ProductsPage(driver);
-        selectProduct.clickTestAll().click();
+        switch (Username) {
 
-        driver.close();
+            case "locked_out_user":
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                LoginPage loginError = new LoginPage(driver);
+                loginError.lockOutUser().isDisplayed();
+                String errorUser = loginError.lockOutUser().getText();
+                System.out.println(errorUser);
+                Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
+                driver.close();
+                break;
+
+            case "standard_user":
+            case "performance_glitch_user":
+            case "problem_user":
+
+                login.getPassWord().sendKeys(Password);
+                login.loginButton().click();
+                ProductsPage selectProduct = new ProductsPage(driver);
+                selectProduct.clickTestAll().click();
+                driver.close();
+                break;
+
+        }
+
+
     }
 
     @AfterTest
     public void tearDown() {
-        driver.quit();;
+        driver.quit();
+
     }
 
 
     @DataProvider
-    public Object[][] getData(){
+    public Object[][] getData() {
 
         Object[][] data = new Object[4][2];
         //Accepted usernames are:
