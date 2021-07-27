@@ -78,47 +78,7 @@ public class ProductsTestAllPage extends base {
                 break;
 
         }
-   /*     if (Username == "locked_out_user") {
-            login.getUserName().sendKeys(Username);
-            login.getPassWord().sendKeys(Password);
-            login.loginButton().click();
-            LoginPage loginError = new LoginPage(driver);
-            loginError.lockOutUser().isDisplayed();
-            String errorUser = login.lockOutUser().getText();
-            System.out.println(errorUser);
-            //wait();
-            //Assert.assertEquals(errorUser, " ");
 
-            Assert.assertEquals(errorUser, "Epic sadface: Sorry, this user has been locked out.");
-            driver.close();
-
-        }
-        if (Username == "problem_user") {
-            login.getUserName().sendKeys(Username);
-            login.getPassWord().sendKeys(Password);
-            login.loginButton().click();
-            ProductsPage selectProduct = new ProductsPage(driver);
-            selectProduct.clickTestAll().click();
-            ProductTestAllPage testAllLabel = new ProductTestAllPage(driver);
-            String getPrice = testAllLabel.assertTestAll().getText();
-            System.out.println(getPrice);
-            Assert.assertEquals(getPrice, "$29.99");
-            driver.close();
-
-        } else if (Username != "problem_user" || Username != "locked_out_user") {
-            login.getUserName().sendKeys(Username);
-            login.getPassWord().sendKeys(Password);
-            login.loginButton().click();
-            ProductsPage selectProduct = new ProductsPage(driver);
-            selectProduct.clickTestAll().click();
-            ProductTestAllPage testAllLabel = new ProductTestAllPage(driver);
-            String getPrice = testAllLabel.assertTestAll().getText();
-            System.out.println(getPrice);
-            Assert.assertEquals(getPrice, "$15.99");
-            driver.close();
-
-
-        }*/
 
     }
 
