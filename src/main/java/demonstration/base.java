@@ -33,10 +33,14 @@ public class base {
 
         switch (browserName) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\chromedriver\\chromedriver.exe");
+                //locally on my drive
+               // System.setProperty("webdriver.chrome.driver", "C:\\Users\\LR Disemelo\\Desktop\\JavaPrograms\\WebDrivers\\chromedriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver/chromedriver.exe");
+                System.out.println(browserName);
                 System.out.println(browserName);
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
+
 
                 break;
             case "firefox":

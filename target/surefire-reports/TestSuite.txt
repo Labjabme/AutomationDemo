@@ -1,109 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 59, Failures: 10, Errors: 0, Skipped: 6, Time elapsed: 601.03 s <<< FAILURE! - in TestSuite
-demonstration.ProductsBackLightPage.assertBackLightLabel[locked_out_user, secret_sauce](2)  Time elapsed: 9.82 s  <<< FAILURE!
+Tests run: 59, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 330.278 s <<< FAILURE! - in TestSuite
+demonstration.ProductsBackLightPage.tearDown  Time elapsed: 10.022 s  <<< FAILURE!
 org.openqa.selenium.NoSuchSessionException: 
 invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+System info: host: 'DESKTOP-PFSO53L', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 137dd058bde29c34061e1fbbc674fbd6
-*** Element info: {Using=id, value=user-name}
-	at demonstration.ProductsBackLightPage.assertBackLightLabel(ProductsBackLightPage.java:62)
-
-demonstration.ProductsBackPackPage.assertBackPackLabel[locked_out_user, secret_sauce](2)  Time elapsed: 5.08 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:20372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b69d4d70f843c745dbc864f4068bb4d
-*** Element info: {Using=id, value=user-name}
-	at demonstration.ProductsBackPackPage.assertBackPackLabel(ProductsBackPackPage.java:63)
-
-demonstration.ProductsBoltTshirtPage.assertBoltTshirtLabel[locked_out_user, secret_sauce](2)  Time elapsed: 10.33 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:29146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cf066af3ba81fed5aadb512851bbd08c
-*** Element info: {Using=id, value=user-name}
-	at demonstration.ProductsBoltTshirtPage.assertBoltTshirtLabel(ProductsBoltTshirtPage.java:63)
-
-demonstration.ProductsFleeceJacketPage.assertFleeceJacketLabel[locked_out_user, secret_sauce](2)  Time elapsed: 17.128 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:18558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 67e38f0f52b0ea2386bcea9a50a4733d
-*** Element info: {Using=id, value=user-name}
-	at demonstration.ProductsFleeceJacketPage.assertFleeceJacketLabel(ProductsFleeceJacketPage.java:65)
-
-demonstration.ProductsFleeceJacketPage.assertFleeceJacketLabel[problem_user, secret_sauce](3)  Time elapsed: 12.725 s  <<< FAILURE!
-java.lang.AssertionError: expected [$âˆš-1] but found [$√-1]
-	at demonstration.ProductsFleeceJacketPage.assertFleeceJacketLabel(ProductsFleeceJacketPage.java:61)
-
-demonstration.ProductsOnsiePage.assertOnsieLabel[locked_out_user, secret_sauce](2)  Time elapsed: 5.362 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:22603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 16b6ef8fb8412ab4a7e7b0da51070d39
-*** Element info: {Using=id, value=user-name}
-	at demonstration.ProductsOnsiePage.assertOnsieLabel(ProductsOnsiePage.java:69)
-
-demonstration.ProductsPages.selectBackPack[locked_out_user, secret_sauce](2)  Time elapsed: 19.086 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".inventory_item_img"}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 09efb3275cde3e16dfe807533187c23c
-*** Element info: {Using=class name, value=inventory_item_img}
-	at demonstration.ProductsPages.selectBackPack(ProductsPages.java:35)
-
-demonstration.ProductsPages.selectBikeLight[locked_out_user, secret_sauce](2)  Time elapsed: 19.645 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#item_0_title_link"}
-  (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:24392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 45c7114a32a5d2d3f0da6c2f87b05772
-*** Element info: {Using=id, value=item_0_title_link}
-	at demonstration.ProductsPages.selectBikeLight(ProductsPages.java:48)
-
-demonstration.ProductsTestAllPage.assertTestAllLabel[locked_out_user, secret_sauce](2)  Time elapsed: 6.939 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f0f43c460bc212037c064c75ba18416
-*** Element info: {Using=id, value=user-name}
-	at demonstration.ProductsTestAllPage.assertTestAllLabel(ProductsTestAllPage.java:64)
-
-demonstration.HomePage.tearDown  Time elapsed: 13.758 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d23c95dc4aac26380fabfeeb178b7e36
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae95c128355fe773e373d588159886e5
+	at demonstration.ProductsBackLightPage.tearDown(ProductsBackLightPage.java:126)
 
