@@ -1,54 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="15" parallel="methods" name="Failed suite [InvestecSignUp]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="pageObjects.Listeners"/>
   </listeners>
-  <test thread-count="5" name="C:/Users/LR Disemelo/Documents/JPMasterclass/AutomationDemo(failed)" verbose="0">
+  <test thread-count="15" parallel="methods" name="FirefoxTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="demonstration.ProductsFleeceJacketPage">
+      <class name="demonstration.MultiBrowser">
         <methods>
-          <include name="assertFleeceJacketLabel" invocation-numbers="1 2"/>
-          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="navigateToCashInvestment"/>
         </methods>
-      </class> <!-- demonstration.ProductsFleeceJacketPage -->
-      <class name="demonstration.ProductsTestAllPage">
-        <methods>
-          <include name="assertTestAllLabel" invocation-numbers="1"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- demonstration.ProductsTestAllPage -->
-      <class name="demonstration.ProductsOnsiePage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="assertOnsieLabel" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- demonstration.ProductsOnsiePage -->
-      <class name="demonstration.ProductsBackLightPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="assertBackLightLabel" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- demonstration.ProductsBackLightPage -->
-      <class name="demonstration.ProductsBackPackPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="assertBackPackLabel" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- demonstration.ProductsBackPackPage -->
-      <class name="demonstration.ProductsPages">
-        <methods>
-          <include name="selectBackPack" invocation-numbers="1"/>
-          <include name="selectBikeLight" invocation-numbers="1"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- demonstration.ProductsPages -->
-      <class name="demonstration.ProductsBoltTshirtPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="assertBoltTshirtLabel" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- demonstration.ProductsBoltTshirtPage -->
+      </class> <!-- demonstration.MultiBrowser -->
     </classes>
-  </test> <!-- C:/Users/LR Disemelo/Documents/JPMasterclass/AutomationDemo(failed) -->
-</suite> <!-- Failed suite [All Test Suite] -->
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [InvestecSignUp] -->

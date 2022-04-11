@@ -1,4 +1,4 @@
-# AutomationDemo
+# InvestecDemo
 
 Settings
 •	Install Git
@@ -9,7 +9,7 @@ Settings
 Import the Project
 Create a directory on your machine.
 Clone this repository into said directory.
-$ git clone https://github.com/Labjabme/AutomationDemo.git
+$ git clone https://github.com/Labjabme/InvestecDemo.git
 Import the project into your IntelliJ (or IDE of your choice) as a Maven Project.
 Click through the prompts, and confirm when it asks to Import from Sources
  

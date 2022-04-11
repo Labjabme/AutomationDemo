@@ -1,695 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="330.278" tests="59" errors="0" skipped="6" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.314" tests="6" errors="0" skipped="5" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\LR Disemelo\Desktop\JavaPrograms\WebDrivers\chromedriver\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo\src\main\resources\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\LR Disemelo\Documents\JPMasterclass\AutomationDemo\target\test-classes;C:\Users\LR Disemelo\Documents\JPMasterclass\AutomationDemo\target\classes;C:\Users\LR Disemelo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\LR Disemelo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\LR Disemelo\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LR Disemelo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LR Disemelo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LR Disemelo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LR Disemelo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LR Disemelo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LR Disemelo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LR Disemelo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LR Disemelo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LR Disemelo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LR Disemelo\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;C:\Users\LR Disemelo\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\LR Disemelo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\LR Disemelo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\LR Disemelo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\LR Disemelo\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\LR Disemelo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\LR Disemelo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\LR Disemelo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\LR Disemelo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
-    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.class.path" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo\target\test-classes;C:\Users\rldis\OneDrive\Documents\InvestecDemo\target\classes;C:\Users\rldis\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\rldis\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\rldis\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rldis\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rldis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rldis\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rldis\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rldis\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rldis\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rldis\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rldis\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rldis\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rldis\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rldis\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;C:\Users\rldis\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\rldis\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\rldis\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\rldis\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\rldis\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\rldis\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rldis\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\rldis\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\rldis\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
     <property name="user.timezone" value="Africa/Harare"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ZA"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.11_9\bin"/>
-    <property name="sun.java.command" value="C:\Users\LR Disemelo\AppData\Local\Temp\surefire14814063284168673081\surefirebooter4821389016512876845.jar C:\Users\LR Disemelo\AppData\Local\Temp\surefire14814063284168673081 2021-07-27T21-09-23_223-jvmRun1 surefire736959896334209415tmp surefire_05622840961224164491tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\rldis\AppData\Local\Temp\surefire11997981303134651261\surefirebooter2197498558688185962.jar C:\Users\rldis\AppData\Local\Temp\surefire11997981303134651261 2022-04-08T12-14-56_675-jvmRun1 surefire247668395768610581tmp surefire_017662708530056827667tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\LR Disemelo\Documents\JPMasterclass\AutomationDemo\target\test-classes;C:\Users\LR Disemelo\Documents\JPMasterclass\AutomationDemo\target\classes;C:\Users\LR Disemelo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\LR Disemelo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\LR Disemelo\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LR Disemelo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LR Disemelo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LR Disemelo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LR Disemelo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LR Disemelo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LR Disemelo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LR Disemelo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LR Disemelo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LR Disemelo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LR Disemelo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LR Disemelo\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;C:\Users\LR Disemelo\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\LR Disemelo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\LR Disemelo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\LR Disemelo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\LR Disemelo\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\LR Disemelo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\LR Disemelo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\LR Disemelo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\LR Disemelo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo\target\test-classes;C:\Users\rldis\OneDrive\Documents\InvestecDemo\target\classes;C:\Users\rldis\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\rldis\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\rldis\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rldis\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rldis\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rldis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rldis\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rldis\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rldis\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rldis\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rldis\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rldis\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rldis\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rldis\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rldis\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;C:\Users\rldis\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\rldis\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\rldis\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\rldis\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\rldis\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\rldis\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rldis\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\rldis\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\rldis\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\LR Disemelo"/>
+    <property name="user.home" value="C:\Users\rldis"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-04-20"/>
-    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.11_9"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\LR Disemelo\Documents\JPMasterclass\AutomationDemo"/>
+    <property name="basedir" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\LR Disemelo\AppData\Local\Temp\surefire14814063284168673081\surefirebooter4821389016512876845.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rldis\AppData\Local\Temp\surefire11997981303134651261\surefirebooter2197498558688185962.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.11+9-LTS"/>
-    <property name="user.name" value="LR Disemelo"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="webdriver.edge.driver" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo\src\main\resources\msedgedriver.exe"/>
+    <property name="user.name" value="rldis"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Corretto-11.0.11.9.1"/>
-    <property name="localRepository" value="C:\Users\LR Disemelo\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
-    <property name="java.io.tmpdir" value="C:\Users\LRDISE~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="11.0.11"/>
-    <property name="user.dir" value="C:\Users\LR Disemelo\Documents\JPMasterclass\AutomationDemo"/>
+    <property name="java.vendor.version" value="Microsoft-25199"/>
+    <property name="localRepository" value="C:\Users\rldis\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\rldis\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\rldis\OneDrive\Documents\InvestecDemo\src\main\resources\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.11_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.11_9\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-11\bin;C:\Gradle\gradle-7.0\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\apache-maven-3.8.1\\bin;C:\ProgramData\chocolatey\bin;C:\Users\LR Disemelo\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\LR Disemelo\AppData\Local\Microsoft\WindowsApps;C:\Users\LR Disemelo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Users\LR Disemelo\.dotnet\tools;C:\Users\LR Disemelo\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_311\bin;C:\apache-maven-3.8.4\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\rldis\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;C:\Users\rldis\AppData\Local\GitHubDesktop\bin;C:\Users\rldis\AppData\Local\Programs\Microsoft VS Code\b;C:\Program Files\Git\cmd;C:\wbmanager\webdrivermanager-5.1.0.jar;C:\selenium-drivers\chromedriver.exe;C:\selenium-drivers\geckodriver.exe;C:\selenium-drivers\msedgedriver.exe;C:\selenium-drivers\operadriver.exe;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\rldis\scoop\shims;C:\Users\rldis\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;;C:\Users\rldis\AppData\Local\GitHubDesktop\bin;C:\Users\rldis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\TestProject Agent;C:\Users\rldis\AppData\Roaming\npm;C:\Users\rldis\.dotnet\tools;C:\Users\rldis\AppData\Local\Microsoft\WindowsApps;C:\Users\rldis\.dotnet\tools;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="java.vm.version" value="11.0.11+9-LTS"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="homePageNavigation[standard_user, secret_sauce](1)" classname="demonstration.HomePage" time="5.229">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30232
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:09:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="homePageNavigation[locked_out_user, secret_sauce](2)" classname="demonstration.HomePage" time="3.196">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 26898
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:09:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="homePageNavigation[problem_user, secret_sauce](3)" classname="demonstration.HomePage" time="3.811">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 17186
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:09:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="homePageNavigation[performance_glitch_user, secret_sauce](4)" classname="demonstration.HomePage" time="12.313">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 47373
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:09:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBackLightLabel[standard_user, secret_sauce](1)" classname="demonstration.ProductsBackLightPage" time="4.617">
-    <system-out><![CDATA[chrome
-$9.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 39202
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:09:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBackLightLabel[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsBackLightPage" time="3.434">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 6755
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:09:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBackLightLabel[problem_user, secret_sauce](3)" classname="demonstration.ProductsBackLightPage" time="3.784">
-    <system-out><![CDATA[chrome
-$15.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 10268
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBackLightLabel[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsBackLightPage" time="9.639">
-    <system-out><![CDATA[chrome
-$9.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 32511
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsBackLightPage" time="10.022">
-    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-PFSO53L&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ae95c128355fe773e373d588159886e5" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
-invalid session id
+  <testcase name="beforeTest[firefox](0)" classname="demonstration.MultiBrowser" time="6.478">
+    <failure message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LABJABMSI&apos;, ip: &apos;10.0.0.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+TypeError: this.curBrowser.contentBrowser is null
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ae95c128355fe773e373d588159886e5
-	at demonstration.ProductsBackLightPage.tearDown(ProductsBackLightPage.java:126)
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
+	at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
 ]]></failure>
-  </testcase>
-  <testcase name="assertBackPackLabel[standard_user, secret_sauce](1)" classname="demonstration.ProductsBackPackPage" time="5.109">
-    <system-out><![CDATA[chrome
-$29.99
+    <system-out><![CDATA[firefox
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37187
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1649412907383	geckodriver	INFO	Listening on 127.0.0.1:15006
+1649412907986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-notifications" "-no-remote" "-profile" "C:\\Users\\rldis\\AppData\\Local\\Temp\\rust_mozprofileWUVv9I"
+1649412908728	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\rldis\\AppData\\Local\\Temp\\rust_mozprofileWUVv9I\\search.json.mozlz4", (void 0)))
+1649412910531	Marionette	INFO	Listening on port 57317
+1649412910658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 08, 2022 12:15:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:812:3
+
 ]]></system-err>
   </testcase>
-  <testcase name="assertBackPackLabel[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsBackPackPage" time="3.241">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 34667
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+  <testcase name="navigateToCashInvestment[Labius , Disemelo](1)" classname="demonstration.MultiBrowser" time="0">
+    <skipped message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LABJABMSI&apos;, ip: &apos;10.0.0.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93"/>
+    <system-err><![CDATA[
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
   </testcase>
-  <testcase name="assertBackPackLabel[problem_user, secret_sauce](3)" classname="demonstration.ProductsBackPackPage" time="3.99">
-    <system-out><![CDATA[chrome
-$49.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 2905
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="navigateToCashInvestment[Ramono, Disemelo](2)" classname="demonstration.MultiBrowser" time="0">
+    <skipped message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LABJABMSI&apos;, ip: &apos;10.0.0.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93"/>
   </testcase>
-  <testcase name="assertBackPackLabel[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsBackPackPage" time="9.488">
-    <system-out><![CDATA[chrome
-$29.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 31505
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="navigateToCashInvestment[Kelebogile, Disemelo](3)" classname="demonstration.MultiBrowser" time="0">
+    <skipped message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LABJABMSI&apos;, ip: &apos;10.0.0.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93"/>
   </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsBackPackPage" time="0">
-    <skipped/>
+  <testcase name="navigateToCashInvestment[Omphile, Disemelo](4)" classname="demonstration.MultiBrowser" time="0">
+    <skipped message="TypeError: this.curBrowser.contentBrowser is null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LABJABMSI&apos;, ip: &apos;10.0.0.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93"/>
   </testcase>
-  <testcase name="assertBoltTshirtLabel[standard_user, secret_sauce](1)" classname="demonstration.ProductsBoltTshirtPage" time="8.45">
-    <system-out><![CDATA[chrome
-$15.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36598
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBoltTshirtLabel[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsBoltTshirtPage" time="3.435">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 39452
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBoltTshirtLabel[problem_user, secret_sauce](3)" classname="demonstration.ProductsBoltTshirtPage" time="3.925">
-    <system-out><![CDATA[chrome
-$7.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 21998
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertBoltTshirtLabel[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsBoltTshirtPage" time="9.557">
-    <system-out><![CDATA[chrome
-$15.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 9032
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:10:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsBoltTshirtPage" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="assertFleeceJacketLabel[standard_user, secret_sauce](1)" classname="demonstration.ProductsFleeceJacketPage" time="3.665">
-    <system-out><![CDATA[chrome
-$49.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 48918
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertFleeceJacketLabel[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsFleeceJacketPage" time="3.942">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 32683
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertFleeceJacketLabel[problem_user, secret_sauce](3)" classname="demonstration.ProductsFleeceJacketPage" time="4.252">
-    <system-out><![CDATA[chrome
-$√-1
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33281
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertFleeceJacketLabel[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsFleeceJacketPage" time="13.679">
-    <system-out><![CDATA[chrome
-$49.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 5258
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsFleeceJacketPage" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="assertOnsieLabel[standard_user, secret_sauce](1)" classname="demonstration.ProductsOnsiePage" time="4.8">
-    <system-out><![CDATA[chrome
-$7.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 34292
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertOnsieLabel[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsOnsiePage" time="3.496">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 43787
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertOnsieLabel[problem_user, secret_sauce](3)" classname="demonstration.ProductsOnsiePage" time="4.117">
-    <system-out><![CDATA[chrome
-$15.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 25081
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertOnsieLabel[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsOnsiePage" time="13.284">
-    <system-out><![CDATA[chrome
-$7.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 15133
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsOnsiePage" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="selectBackPack[standard_user, secret_sauce](1)" classname="demonstration.ProductsPages" time="8.516">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33779
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:11:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBackPack[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsPages" time="3.443">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 4566
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBackPack[problem_user, secret_sauce](3)" classname="demonstration.ProductsPages" time="7.484">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 48399
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBackPack[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsPages" time="9.363">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36109
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBikeLight[standard_user, secret_sauce](1)" classname="demonstration.ProductsPages" time="4.837">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 6871
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBikeLight[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsPages" time="3.67">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30633
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBikeLight[problem_user, secret_sauce](3)" classname="demonstration.ProductsPages" time="3.759">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 5689
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBikeLight[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsPages" time="9.891">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 28050
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBoltTshirt[standard_user, secret_sauce](1)" classname="demonstration.ProductsPages" time="5.139">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 24232
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBoltTshirt[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsPages" time="3.665">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 29214
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBoltTshirt[problem_user, secret_sauce](3)" classname="demonstration.ProductsPages" time="7.699">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 31409
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:12:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectBoltTshirt[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsPages" time="9.684">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 47096
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectFleeceJacket[standard_user, secret_sauce](1)" classname="demonstration.ProductsPages" time="6.499">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 38640
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectFleeceJacket[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsPages" time="5.156">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 42953
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectFleeceJacket[problem_user, secret_sauce](3)" classname="demonstration.ProductsPages" time="3.96">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 32483
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectFleeceJacket[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsPages" time="9.679">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 20742
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectOnsie[standard_user, secret_sauce](1)" classname="demonstration.ProductsPages" time="8.32">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 10245
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectOnsie[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsPages" time="3.876">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 11211
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectOnsie[problem_user, secret_sauce](3)" classname="demonstration.ProductsPages" time="4.32">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 27486
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectOnsie[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsPages" time="9.724">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 4990
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:13:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectTestAllTheThings[standard_user, secret_sauce](1)" classname="demonstration.ProductsPages" time="8.627">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 5803
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectTestAllTheThings[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsPages" time="4.128">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 32581
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectTestAllTheThings[problem_user, secret_sauce](3)" classname="demonstration.ProductsPages" time="7.846">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 44831
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="selectTestAllTheThings[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsPages" time="9.462">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 24078
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsPages" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="assertTestAllLabel[standard_user, secret_sauce](1)" classname="demonstration.ProductsTestAllPage" time="4.725">
-    <system-out><![CDATA[chrome
-$15.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 23223
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertTestAllLabel[locked_out_user, secret_sauce](2)" classname="demonstration.ProductsTestAllPage" time="3.954">
-    <system-out><![CDATA[chrome
-Epic sadface: Sorry, this user has been locked out.
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 44209
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertTestAllLabel[problem_user, secret_sauce](3)" classname="demonstration.ProductsTestAllPage" time="3.682">
-    <system-out><![CDATA[chrome
-$29.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36476
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="assertTestAllLabel[performance_glitch_user, secret_sauce](4)" classname="demonstration.ProductsTestAllPage" time="9.459">
-    <system-out><![CDATA[chrome
-$15.99
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 8214
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 27, 2021 9:14:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="tearDown" classname="demonstration.ProductsTestAllPage" time="0">
+  <testcase name="afterTest" classname="demonstration.MultiBrowser" time="0">
     <skipped/>
   </testcase>
 </testsuite>

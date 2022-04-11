@@ -11,7 +11,7 @@ public class ExtentReport extends base {
 
         String path =System.getProperty("user.dir")+"\\reports\\index.html";
         ExtentSparkReporter reporter = new ExtentSparkReporter(path);
-        reporter.config().setReportName("Sauce Automation Results");
+        reporter.config().setReportName("Investec Automation Results");
         reporter.config().setDocumentTitle("Test Results");
 
         extent =new ExtentReports();

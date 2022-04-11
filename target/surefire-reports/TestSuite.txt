@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 59, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 330.278 s <<< FAILURE! - in TestSuite
-demonstration.ProductsBackLightPage.tearDown  Time elapsed: 10.022 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 23.314 s <<< FAILURE! - in TestSuite
+demonstration.MultiBrowser.beforeTest[firefox](0)  Time elapsed: 6.478 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: this.curBrowser.contentBrowser is null
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ae95c128355fe773e373d588159886e5
-	at demonstration.ProductsBackLightPage.tearDown(ProductsBackLightPage.java:126)
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
+	at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
 

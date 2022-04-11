@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="15" parallel="methods" name="Failed suite [InvestecSignUp]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="pageObjects.Listeners"/>
+  </listeners>
+  <test thread-count="15" parallel="methods" name="FirefoxTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="demonstration.MultiBrowser">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="navigateToCashInvestment"/>
+        </methods>
+      </class> <!-- demonstration.MultiBrowser -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [InvestecSignUp] -->

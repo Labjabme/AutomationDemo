@@ -1,763 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="52" passed="52" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-27T21:09:29 CAT" name="All Test Suite" finished-at="2021-07-27T21:14:54 CAT" duration-ms="325678">
+  <suite started-at="2022-04-08T12:15:07 CAT" name="InvestecSignUp" finished-at="2022-04-08T12:15:29 CAT" duration-ms="22483">
     <groups>
     </groups>
-    <test started-at="2021-07-27T21:09:29 CAT" name="C:/Users/LR Disemelo/Documents/JPMasterclass/AutomationDemo" finished-at="2021-07-27T21:14:54 CAT" duration-ms="325678">
-      <class name="demonstration.ProductsFleeceJacketPage">
-        <test-method signature="assertFleeceJacketLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsFleeceJacketPage@9573584]" started-at="2021-07-27T21:11:02 CAT" name="assertFleeceJacketLabel" data-provider="getData" finished-at="2021-07-27T21:11:06 CAT" duration-ms="3779" status="PASS">
+    <test started-at="2022-04-08T12:15:07 CAT" name="FirefoxTest" finished-at="2022-04-08T12:15:13 CAT" duration-ms="5905">
+      <class name="demonstration.MultiBrowser">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:demonstration.MultiBrowser@662706a7]" started-at="2022-04-08T12:15:07 CAT" name="beforeTest" finished-at="2022-04-08T12:15:12 CAT" duration-ms="5858" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertFleeceJacketLabel -->
-        <test-method signature="assertFleeceJacketLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsFleeceJacketPage@9573584]" started-at="2021-07-27T21:11:06 CAT" name="assertFleeceJacketLabel" data-provider="getData" finished-at="2021-07-27T21:11:10 CAT" duration-ms="3935" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertFleeceJacketLabel -->
-        <test-method signature="assertFleeceJacketLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsFleeceJacketPage@9573584]" started-at="2021-07-27T21:11:10 CAT" name="assertFleeceJacketLabel" data-provider="getData" finished-at="2021-07-27T21:11:14 CAT" duration-ms="4262" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertFleeceJacketLabel -->
-        <test-method signature="assertFleeceJacketLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsFleeceJacketPage@9573584]" started-at="2021-07-27T21:11:14 CAT" name="assertFleeceJacketLabel" data-provider="getData" finished-at="2021-07-27T21:11:28 CAT" duration-ms="13608" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertFleeceJacketLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsFleeceJacketPage@9573584]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1627413294974" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsFleeceJacketPage -->
-      <class name="demonstration.ProductsBackPackPage">
-        <test-method signature="assertBackPackLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackPackPage@75d2da2d]" started-at="2021-07-27T21:10:15 CAT" name="assertBackPackLabel" data-provider="getData" finished-at="2021-07-27T21:10:20 CAT" duration-ms="4973" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackPackLabel -->
-        <test-method signature="assertBackPackLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackPackPage@75d2da2d]" started-at="2021-07-27T21:10:20 CAT" name="assertBackPackLabel" data-provider="getData" finished-at="2021-07-27T21:10:23 CAT" duration-ms="3356" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackPackLabel -->
-        <test-method signature="assertBackPackLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackPackPage@75d2da2d]" started-at="2021-07-27T21:10:23 CAT" name="assertBackPackLabel" data-provider="getData" finished-at="2021-07-27T21:10:27 CAT" duration-ms="4007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackPackLabel -->
-        <test-method signature="assertBackPackLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackPackPage@75d2da2d]" started-at="2021-07-27T21:10:27 CAT" name="assertBackPackLabel" data-provider="getData" finished-at="2021-07-27T21:10:37 CAT" duration-ms="9483" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackPackLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsBackPackPage@75d2da2d]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1627413294972" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsBackPackPage -->
-      <class name="demonstration.ProductsOnsiePage">
-        <test-method signature="assertOnsieLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsOnsiePage@3370f42]" started-at="2021-07-27T21:11:28 CAT" name="assertOnsieLabel" data-provider="getData" finished-at="2021-07-27T21:11:32 CAT" duration-ms="4853" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertOnsieLabel -->
-        <test-method signature="assertOnsieLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsOnsiePage@3370f42]" started-at="2021-07-27T21:11:32 CAT" name="assertOnsieLabel" data-provider="getData" finished-at="2021-07-27T21:11:36 CAT" duration-ms="3508" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertOnsieLabel -->
-        <test-method signature="assertOnsieLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsOnsiePage@3370f42]" started-at="2021-07-27T21:11:36 CAT" name="assertOnsieLabel" data-provider="getData" finished-at="2021-07-27T21:11:40 CAT" duration-ms="4122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertOnsieLabel -->
-        <test-method signature="assertOnsieLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsOnsiePage@3370f42]" started-at="2021-07-27T21:11:40 CAT" name="assertOnsieLabel" data-provider="getData" finished-at="2021-07-27T21:11:53 CAT" duration-ms="13287" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertOnsieLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsOnsiePage@3370f42]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1627413294974" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsOnsiePage -->
-      <class name="demonstration.ProductsPages">
-        <test-method signature="selectBackPack(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:11:53 CAT" name="selectBackPack" data-provider="getData" finished-at="2021-07-27T21:12:02 CAT" duration-ms="8516" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBackPack -->
-        <test-method signature="selectBackPack(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:02 CAT" name="selectBackPack" data-provider="getData" finished-at="2021-07-27T21:12:05 CAT" duration-ms="3413" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBackPack -->
-        <test-method signature="selectBackPack(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:05 CAT" name="selectBackPack" data-provider="getData" finished-at="2021-07-27T21:12:13 CAT" duration-ms="7472" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBackPack -->
-        <test-method signature="selectBackPack(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:13 CAT" name="selectBackPack" data-provider="getData" finished-at="2021-07-27T21:12:22 CAT" duration-ms="9353" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBackPack -->
-        <test-method signature="selectBikeLight(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:22 CAT" name="selectBikeLight" data-provider="getData" finished-at="2021-07-27T21:12:27 CAT" duration-ms="4883" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBikeLight -->
-        <test-method signature="selectBikeLight(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:27 CAT" name="selectBikeLight" data-provider="getData" finished-at="2021-07-27T21:12:31 CAT" duration-ms="3668" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBikeLight -->
-        <test-method signature="selectBikeLight(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:31 CAT" name="selectBikeLight" data-provider="getData" finished-at="2021-07-27T21:12:34 CAT" duration-ms="3760" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBikeLight -->
-        <test-method signature="selectBikeLight(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:34 CAT" name="selectBikeLight" data-provider="getData" finished-at="2021-07-27T21:12:44 CAT" duration-ms="9883" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBikeLight -->
-        <test-method signature="selectBoltTshirt(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:44 CAT" name="selectBoltTshirt" data-provider="getData" finished-at="2021-07-27T21:12:49 CAT" duration-ms="5139" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBoltTshirt -->
-        <test-method signature="selectBoltTshirt(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:49 CAT" name="selectBoltTshirt" data-provider="getData" finished-at="2021-07-27T21:12:53 CAT" duration-ms="3651" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBoltTshirt -->
-        <test-method signature="selectBoltTshirt(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:12:53 CAT" name="selectBoltTshirt" data-provider="getData" finished-at="2021-07-27T21:13:01 CAT" duration-ms="7701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBoltTshirt -->
-        <test-method signature="selectBoltTshirt(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:01 CAT" name="selectBoltTshirt" data-provider="getData" finished-at="2021-07-27T21:13:10 CAT" duration-ms="9558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBoltTshirt -->
-        <test-method signature="selectFleeceJacket(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:10 CAT" name="selectFleeceJacket" data-provider="getData" finished-at="2021-07-27T21:13:17 CAT" duration-ms="6502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFleeceJacket -->
-        <test-method signature="selectFleeceJacket(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:17 CAT" name="selectFleeceJacket" data-provider="getData" finished-at="2021-07-27T21:13:22 CAT" duration-ms="5293" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFleeceJacket -->
-        <test-method signature="selectFleeceJacket(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:22 CAT" name="selectFleeceJacket" data-provider="getData" finished-at="2021-07-27T21:13:26 CAT" duration-ms="3958" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFleeceJacket -->
-        <test-method signature="selectFleeceJacket(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:26 CAT" name="selectFleeceJacket" data-provider="getData" finished-at="2021-07-27T21:13:36 CAT" duration-ms="9565" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFleeceJacket -->
-        <test-method signature="selectOnsie(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:36 CAT" name="selectOnsie" data-provider="getData" finished-at="2021-07-27T21:13:44 CAT" duration-ms="8437" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectOnsie -->
-        <test-method signature="selectOnsie(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:44 CAT" name="selectOnsie" data-provider="getData" finished-at="2021-07-27T21:13:48 CAT" duration-ms="3864" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectOnsie -->
-        <test-method signature="selectOnsie(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:48 CAT" name="selectOnsie" data-provider="getData" finished-at="2021-07-27T21:13:52 CAT" duration-ms="4298" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectOnsie -->
-        <test-method signature="selectOnsie(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:13:52 CAT" name="selectOnsie" data-provider="getData" finished-at="2021-07-27T21:14:02 CAT" duration-ms="9753" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectOnsie -->
-        <test-method signature="selectTestAllTheThings(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:14:02 CAT" name="selectTestAllTheThings" data-provider="getData" finished-at="2021-07-27T21:14:11 CAT" duration-ms="8614" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectTestAllTheThings -->
-        <test-method signature="selectTestAllTheThings(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:14:11 CAT" name="selectTestAllTheThings" data-provider="getData" finished-at="2021-07-27T21:14:15 CAT" duration-ms="4138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectTestAllTheThings -->
-        <test-method signature="selectTestAllTheThings(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:14:15 CAT" name="selectTestAllTheThings" data-provider="getData" finished-at="2021-07-27T21:14:23 CAT" duration-ms="7854" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectTestAllTheThings -->
-        <test-method signature="selectTestAllTheThings(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:14:23 CAT" name="selectTestAllTheThings" data-provider="getData" finished-at="2021-07-27T21:14:32 CAT" duration-ms="9456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectTestAllTheThings -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsPages@53251a66]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1627413294975" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsPages -->
-      <class name="demonstration.ProductsTestAllPage">
-        <test-method signature="assertTestAllLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsTestAllPage@6853425f]" started-at="2021-07-27T21:14:32 CAT" name="assertTestAllLabel" data-provider="getData" finished-at="2021-07-27T21:14:37 CAT" duration-ms="4603" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertTestAllLabel -->
-        <test-method signature="assertTestAllLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsTestAllPage@6853425f]" started-at="2021-07-27T21:14:37 CAT" name="assertTestAllLabel" data-provider="getData" finished-at="2021-07-27T21:14:41 CAT" duration-ms="4069" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertTestAllLabel -->
-        <test-method signature="assertTestAllLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsTestAllPage@6853425f]" started-at="2021-07-27T21:14:41 CAT" name="assertTestAllLabel" data-provider="getData" finished-at="2021-07-27T21:14:44 CAT" duration-ms="3671" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertTestAllLabel -->
-        <test-method signature="assertTestAllLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsTestAllPage@6853425f]" started-at="2021-07-27T21:14:44 CAT" name="assertTestAllLabel" data-provider="getData" finished-at="2021-07-27T21:14:54 CAT" duration-ms="9476" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertTestAllLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsTestAllPage@6853425f]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1627413294975" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsTestAllPage -->
-      <class name="demonstration.ProductsBackLightPage">
-        <test-method signature="assertBackLightLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackLightPage@332729ad]" started-at="2021-07-27T21:09:53 CAT" name="assertBackLightLabel" data-provider="getData" finished-at="2021-07-27T21:09:58 CAT" duration-ms="4617" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackLightLabel -->
-        <test-method signature="assertBackLightLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackLightPage@332729ad]" started-at="2021-07-27T21:09:58 CAT" name="assertBackLightLabel" data-provider="getData" finished-at="2021-07-27T21:10:01 CAT" duration-ms="3421" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackLightLabel -->
-        <test-method signature="assertBackLightLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackLightPage@332729ad]" started-at="2021-07-27T21:10:01 CAT" name="assertBackLightLabel" data-provider="getData" finished-at="2021-07-27T21:10:05 CAT" duration-ms="3691" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackLightLabel -->
-        <test-method signature="assertBackLightLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBackLightPage@332729ad]" started-at="2021-07-27T21:10:05 CAT" name="assertBackLightLabel" data-provider="getData" finished-at="2021-07-27T21:10:15 CAT" duration-ms="9747" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBackLightLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsBackLightPage@332729ad]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="2021-07-27T21:14:54 CAT" duration-ms="32" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[invalid session id
+              <![CDATA[TypeError: this.curBrowser.contentBrowser is null
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ae95c128355fe773e373d588159886e5]]>
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: this.curBrowser.contentBrowser is null
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PFSO53L', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LRDISE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ae95c128355fe773e373d588159886e5
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -768,9 +41,8 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at demonstration.ProductsBackLightPage.tearDown(ProductsBackLightPage.java:126)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -779,173 +51,300 @@ at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelpe
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsBackLightPage -->
-      <class name="demonstration.HomePage">
-        <test-method signature="homePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:demonstration.HomePage@1fb19a0]" started-at="2021-07-27T21:09:29 CAT" name="homePageNavigation" data-provider="getData" finished-at="2021-07-27T21:09:34 CAT" duration-ms="5179" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="navigateToCashInvestment(java.lang.String,java.lang.String)[pri:0, instance:demonstration.MultiBrowser@662706a7]" started-at="2022-04-08T12:15:12 CAT" name="navigateToCashInvestment" data-provider="getData" finished-at="2022-04-08T12:15:12 CAT" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[standard_user]]>
+                <![CDATA[Labius ]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[secret_sauce]]>
+                <![CDATA[Disemelo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCashInvestment -->
+        <test-method signature="navigateToCashInvestment(java.lang.String,java.lang.String)[pri:0, instance:demonstration.MultiBrowser@662706a7]" started-at="2022-04-08T12:15:13 CAT" name="navigateToCashInvestment" data-provider="getData" finished-at="2022-04-08T12:15:13 CAT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramono]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disemelo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCashInvestment -->
+        <test-method signature="navigateToCashInvestment(java.lang.String,java.lang.String)[pri:0, instance:demonstration.MultiBrowser@662706a7]" started-at="2022-04-08T12:15:13 CAT" name="navigateToCashInvestment" data-provider="getData" finished-at="2022-04-08T12:15:13 CAT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kelebogile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disemelo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCashInvestment -->
+        <test-method signature="navigateToCashInvestment(java.lang.String,java.lang.String)[pri:0, instance:demonstration.MultiBrowser@662706a7]" started-at="2022-04-08T12:15:13 CAT" name="navigateToCashInvestment" data-provider="getData" finished-at="2022-04-08T12:15:13 CAT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Omphile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disemelo]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: this.curBrowser.contentBrowser is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LABJABMSI', ip: '10.0.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 57612, moz:profile: C:\Users\rldis\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19a4239c-0b77-456e-967c-75e4602d0c93
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at demonstration.MultiBrowser.beforeTest(MultiBrowser.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCashInvestment -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:demonstration.MultiBrowser@662706a7]" started-at="2022-04-08T12:15:13 CAT" name="afterTest" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1649412913014" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demonstration.MultiBrowser -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-04-08T12:15:13 CAT" name="ChromeTest" finished-at="2022-04-08T12:15:22 CAT" duration-ms="9025">
+      <class name="demonstration.MultiBrowser">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:demonstration.MultiBrowser@63eef88a]" started-at="2022-04-08T12:15:13 CAT" name="beforeTest" finished-at="2022-04-08T12:15:17 CAT" duration-ms="4311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageNavigation -->
-        <test-method signature="homePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:demonstration.HomePage@1fb19a0]" started-at="2021-07-27T21:09:34 CAT" name="homePageNavigation" data-provider="getData" finished-at="2021-07-27T21:09:37 CAT" duration-ms="3196" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:demonstration.MultiBrowser@63eef88a]" started-at="2022-04-08T12:15:21 CAT" name="afterTest" finished-at="2022-04-08T12:15:22 CAT" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demonstration.MultiBrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-04-08T12:15:22 CAT" name="MSEdgeTest" finished-at="2022-04-08T12:15:29 CAT" duration-ms="7222">
+      <class name="demonstration.MultiBrowser">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:demonstration.MultiBrowser@21129f1f]" started-at="2022-04-08T12:15:22 CAT" name="beforeTest" finished-at="2022-04-08T12:15:28 CAT" duration-ms="6404" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageNavigation -->
-        <test-method signature="homePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:demonstration.HomePage@1fb19a0]" started-at="2021-07-27T21:09:37 CAT" name="homePageNavigation" data-provider="getData" finished-at="2021-07-27T21:09:41 CAT" duration-ms="3828" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:demonstration.MultiBrowser@21129f1f]" started-at="2022-04-08T12:15:28 CAT" name="afterTest" finished-at="2022-04-08T12:15:29 CAT" duration-ms="787" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageNavigation -->
-        <test-method signature="homePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:demonstration.HomePage@1fb19a0]" started-at="2021-07-27T21:09:41 CAT" name="homePageNavigation" data-provider="getData" finished-at="2021-07-27T21:09:53 CAT" duration-ms="12310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.HomePage@1fb19a0]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="2021-07-27T21:14:54 CAT" duration-ms="549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.HomePage -->
-      <class name="demonstration.ProductsBoltTshirtPage">
-        <test-method signature="assertBoltTshirtLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBoltTshirtPage@4278284b]" started-at="2021-07-27T21:10:37 CAT" name="assertBoltTshirtLabel" data-provider="getData" finished-at="2021-07-27T21:10:45 CAT" duration-ms="8345" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBoltTshirtLabel -->
-        <test-method signature="assertBoltTshirtLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBoltTshirtPage@4278284b]" started-at="2021-07-27T21:10:45 CAT" name="assertBoltTshirtLabel" data-provider="getData" finished-at="2021-07-27T21:10:49 CAT" duration-ms="3522" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBoltTshirtLabel -->
-        <test-method signature="assertBoltTshirtLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBoltTshirtPage@4278284b]" started-at="2021-07-27T21:10:49 CAT" name="assertBoltTshirtLabel" data-provider="getData" finished-at="2021-07-27T21:10:53 CAT" duration-ms="3941" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBoltTshirtLabel -->
-        <test-method signature="assertBoltTshirtLabel(java.lang.String,java.lang.String)[pri:0, instance:demonstration.ProductsBoltTshirtPage@4278284b]" started-at="2021-07-27T21:10:53 CAT" name="assertBoltTshirtLabel" data-provider="getData" finished-at="2021-07-27T21:11:02 CAT" duration-ms="9434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertBoltTshirtLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demonstration.ProductsBoltTshirtPage@4278284b]" started-at="2021-07-27T21:14:54 CAT" name="tearDown" finished-at="1970-01-01T02:00:00 CAT" duration-ms="-1627413294973" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demonstration.ProductsBoltTshirtPage -->
-    </test> <!-- C:/Users/LR Disemelo/Documents/JPMasterclass/AutomationDemo -->
-  </suite> <!-- All Test Suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- demonstration.MultiBrowser -->
+    </test> <!-- MSEdgeTest -->
+  </suite> <!-- InvestecSignUp -->
 </testng-results>
