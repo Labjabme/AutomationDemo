@@ -1,4 +1,4 @@
-# InvestecDemo
+# POCDemo
 
 Settings
 •	Install Git
